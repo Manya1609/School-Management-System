@@ -1,0 +1,16 @@
+{
+    "/api/users/role/:role" : "/api/users?role=:role",
+    "/api/classes/:classId/students" : "/api/students?classId=:classId",
+    "/api/classes/:classId/sections" : "/api/sections?classId=:classId",
+    "/api/classes/:classId/sections/:sectionId/students" : "/api/students?classId=:classId&sectionId=:sectionId",
+    "/api/system/stats" : "/api/system-stats/0",
+    "/api/sections/users/:userId" : "/api/assigned-section/:userId",
+    "/api/subjects/classes/:classId" : "/api/subjects?classId=:classId",
+    "/api/subjects/users/:userId" : "/api/subjects?userId=:userId",
+    "/api/marks/classes/:classId/sections/:sectionId/subjects/:subjectId/exams/:examId/marks": "/api/marks?examId=:examId",
+    "/api/marks/total": "/api/tabulated",
+    "/api/managetimetable/timetable/:timeTableId/slots" : "/api/managetimetable?timeTableId=:timeTableId",
+    "/api/managetimetable/timetable/:timeTableId/assign" : "/api/managetimetable?timeTableId=:timeTableId",
+    "/api/students/promote" : "/api/dump",
+    "/api/password/reset" : "/api/dump"
+}

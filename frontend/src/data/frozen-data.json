@@ -1,0 +1,631 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "userId": "1",
+            "username": "superAdmin",
+            "fullName": "Super Admin",
+            "role": "super_admin",
+            "email": "super.adm@xyz"
+        },
+        {
+            "id": "2",
+            "userId": "2",
+            "username": "admin1",
+            "fullName": "Admin1",
+            "role": "admin",
+            "email": "adm1@xyz"
+        },
+        {
+            "id": "3",
+            "userId": "3",
+            "username": "teach",
+            "fullName": "Teacher X",
+            "role": "teacher",
+            "email": "teachx@xyz"
+        },
+        {
+            "id": "4",
+            "userId": "4",
+            "username": "std1",
+            "fullName": "Jack L",
+            "role": "student",
+            "email": "s1@xyz"
+        },
+        {
+            "id": "5",
+            "userId": "5",
+            "username": "std2",
+            "fullName": "Jill L",
+            "role": "student",
+            "email": "s2@xyz"
+        },
+        {
+            "id": "6",
+            "userId": "6",
+            "username": "std3",
+            "fullName": "John M",
+            "role": "student",
+            "email": "s3@xyz"
+        },
+        {
+            "id": "7",
+            "userId": "7",
+            "username": "teachA",
+            "fullName": "A-Teacher",
+            "role": "teacher",
+            "email": "teacha@xyz"
+        },
+        {
+            "id": "8",
+            "userId": "8",
+            "username": "teachB",
+            "fullName": "B-Teacher",
+            "role": "teacher",
+            "email": "teachb@xyz"
+        }
+    ],
+    "system": [
+        {
+            "id": "1",
+            "systemId": "1",
+            "nameOfSchool": "National Public School",
+            "currentSession": "2023-2024",
+            "schoolAcronym": "NPS",
+            "phone": "9999999999",
+            "schoolEmail": "admin@nps.edu.in",
+            "schoolAddress": "Delhi, India",
+            "termEnds": "2024-03-30T18:30:00.000Z",
+            "nextTermBegins": "2024-03-31T18:30:00.000Z",
+            "lockExam": "",
+            "crecheFee": "",
+            "juniorSecondaryFee": "",
+            "nurseryFee": "",
+            "preNurseryFee": "",
+            "primaryFee": "",
+            "seniorSecondaryFee": "",
+            "logo": null
+        }
+    ],
+    "classes": [
+        {
+            "id": "1",
+            "classId": "1",
+            "name": "I"
+        },
+        {
+            "id": "2",
+            "classId": "2",
+            "name": "II"
+        },
+        {
+            "id": "3",
+            "classId": "3",
+            "name": "III"
+        },
+        {
+            "id": "4",
+            "classId": "4",
+            "name": "IV"
+        },
+        {
+            "id": "5",
+            "classId": "5",
+            "name": "V"
+        },
+        {
+            "id": "6",
+            "classId": "6",
+            "name": "VI"
+        },
+        {
+            "id": "7",
+            "classId": "7",
+            "name": "VII"
+        },
+        {
+            "id": "8",
+            "classId": "8",
+            "name": "VIII"
+        },
+        {
+            "id": "9",
+            "classId": "9",
+            "name": "testClass01"
+        }
+    ],
+    "sections": [
+        {
+            "id": "1",
+            "sectionId": "1",
+            "name": "A",
+            "classId": "5",
+            "userId": "3"
+        },
+        {
+            "id": "2",
+            "sectionId": "2",
+            "name": "B",
+            "classId": "5",
+            "userId": "7"
+        },
+        {
+            "id": "3",
+            "sectionId": "3",
+            "name": "C",
+            "classId": "4",
+            "userId": "8"
+        },
+        {
+            "id": "4",
+            "sectionId": "4",
+            "name": "D",
+            "classId": "5",
+            "userId": "9"
+        }
+    ],
+    "students": [
+        {
+            "id": "4",
+            "userId": "4",
+            "classId": "5",
+            "sectionId": "1"
+        },
+        {
+            "id": "5",
+            "userId": "5",
+            "classId": "5",
+            "sectionId": "2"
+        },
+        {
+            "id": "6",
+            "userId": "6",
+            "classId": "4",
+            "sectionId": "3"
+        }
+    ],
+    "subjects": [
+        {
+            "id": "1",
+            "subjectId": "1",
+            "subjectName": "science",
+            "shortName": "SC-4",
+            "className": "IV",
+            "teacherName": "Teacher X",
+            "teacherEmail": "teachx@xyz",
+            "classId": "4",
+            "userId": "3"
+        },
+        {
+            "id": "2",
+            "subjectId": "2",
+            "subjectName": "math",
+            "shortName": "MA-4",
+            "className": "IV",
+            "teacherName": "Teacher X",
+            "teacherEmail": "teachx@xyz",
+            "classId": "4",
+            "userId": "3"
+        },
+        {
+            "id": "3",
+            "subjectId": "3",
+            "subjectName": "english",
+            "shortName": "EN-4",
+            "className": "IV",
+            "teacherName": "Teacher X",
+            "teacherEmail": "teachx@xyz",
+            "classId": "4",
+            "userId": "3"
+        },
+        {
+            "id": "4",
+            "subjectId": "4",
+            "subjectName": "history",
+            "shortName": "HI-4",
+            "className": "IV",
+            "teacherName": "A-Teacher",
+            "teacherEmail": "teacha@xyz",
+            "classId": "4",
+            "userId": "7"
+        },
+        {
+            "id": "5",
+            "subjectId": "5",
+            "subjectName": "geography",
+            "shortName": "GE-4",
+            "className": "IV",
+            "teacherName": "A-Teacher",
+            "teacherEmail": "teacha@xyz",
+            "classId": "4",
+            "userId": "7"
+        },
+        {
+            "id": "6",
+            "subjectId": "6",
+            "subjectName": "science",
+            "shortName": "SC-5",
+            "className": "V",
+            "teacherName": "B-Teacher",
+            "teacherEmail": "teachb@xyz",
+            "classId": "5",
+            "userId": "8"
+        },
+        {
+            "id": "7",
+            "subjectId": "7",
+            "subjectName": "math",
+            "shortName": "MA-5",
+            "className": "V",
+            "teacherName": "B-Teacher",
+            "teacherEmail": "teachb@xyz",
+            "classId": "5",
+            "userId": "8"
+        },
+        {
+            "id": "8",
+            "subjectId": "8",
+            "subjectName": "english",
+            "shortName": "EN-5",
+            "className": "V",
+            "teacherName": "B-Teacher",
+            "teacherEmail": "teachb@xyz",
+            "classId": "5",
+            "userId": "8"
+        },
+        {
+            "id": "9",
+            "subjectId": "9",
+            "subjectName": "history",
+            "shortName": "HI-5",
+            "className": "V",
+            "teacherName": "A-Teacher",
+            "teacherEmail": "teacha@xyz",
+            "classId": "5",
+            "userId": "7"
+        },
+        {
+            "id": "10",
+            "subjectId": "10",
+            "subjectName": "geography",
+            "shortName": "GE-5",
+            "className": "V",
+            "teacherName": "A-Teacher",
+            "teacherEmail": "teacha@xyz",
+            "classId": "5",
+            "userId": "7"
+        }
+    ],
+    "exams": [
+        {
+            "id": "1",
+            "examId": "1",
+            "name": "mid-term 1",
+            "term": "1"
+        },
+        {
+            "id": "2",
+            "examId": "2",
+            "name": "mid-term 2",
+            "term": "2"
+        },
+        {
+            "id": "3",
+            "examId": "3",
+            "name": "final 1",
+            "term": "1"
+        },
+        {
+            "id": "4",
+            "examId": "4",
+            "name": "final 2",
+            "term": "2"
+        }
+    ],
+    "grades": [
+        {
+            "id": "1",
+            "gradeId": "1",
+            "gradeName": "A",
+            "markFrom": "90",
+            "markTo": "100"
+        },
+        {
+            "id": "2",
+            "gradeId": "2",
+            "gradeName": "B",
+            "markFrom": "80",
+            "markTo": "90"
+        },
+        {
+            "id": "3",
+            "gradeId": "3",
+            "gradeName": "C",
+            "markFrom": "70",
+            "markTo": "80"
+        },
+        {
+            "id": "4",
+            "gradeId": "4",
+            "gradeName": "D",
+            "markFrom": "60",
+            "markTo": "70"
+        },
+        {
+            "id": "5",
+            "gradeId": "5",
+            "gradeName": "E",
+            "markFrom": "50",
+            "markTo": "60"
+        }
+    ],
+    "marks": [
+        {
+            "id": "1",
+            "studentId": "4",
+            "examId": "1",
+            "score1": "19",
+            "score2": "18",
+            "score3": "59"
+        },
+        {
+            "id": "2",
+            "studentId": "4",
+            "examId": "2",
+            "score1": "15",
+            "score2": "10",
+            "score3": "47"
+        },
+        {
+            "id": "3",
+            "studentId": "5",
+            "examId": "3",
+            "score1": "9",
+            "score2": "8",
+            "score3": "39"
+        }
+    ],
+    "timetables": [
+        {
+            "id": "1",
+            "name": "Term 1",
+            "classId": "5",
+            "timeTableType": "Class"
+        },
+        {
+            "id": "2",
+            "name": "Term 1 Exams",
+            "classId": "5",
+            "timeTableType": "Exam"
+        },
+        {
+            "id": "3",
+            "name": "Term-1",
+            "classId": "4",
+            "timeTableType": "Class"
+        },
+        {
+            "id": "4",
+            "name": "Term-2",
+            "classId": "3",
+            "timeTableType": "Class"
+        }
+    ],
+    "timeslots": [
+        {
+            "id": "1",
+            "startTime": "09:00",
+            "endTime": "10:00"
+        },
+        {
+            "id": "2",
+            "startTime": "10:00",
+            "endTime": "11:00"
+        },
+        {
+            "id": "3",
+            "startTime": "11:00",
+            "endTime": "12:00"
+        },
+        {
+            "id": "4",
+            "startTime": "12:00",
+            "endTime": "13:00"
+        },
+        {
+            "id": "5",
+            "startTime": "13:00",
+            "endTime": "14:00"
+        },
+        {
+            "id": "6",
+            "startTime": "14:00",
+            "endTime": "15:00"
+        },
+        {
+            "id": "7",
+            "startTime": "15:00",
+            "endTime": "16:00"
+        },
+        {
+            "id": "8",
+            "startTime": "16:00",
+            "endTime": "17:00"
+        },
+        {
+            "id": "9",
+            "startTime": "17:00",
+            "endTime": "18:00"
+        }
+    ],
+    "managetimetable": [
+        {
+            "id": "1",
+            "timeTableId": "1",
+            "timeSlotId": "2",
+            "dayOfWeek": "1",
+            "date": null,
+            "subjectId": "2"
+        },
+        {
+            "id": "2",
+            "timeTableId": "1",
+            "timeSlotId": "3",
+            "dayOfWeek": "1",
+            "date": null,
+            "subjectId": "3"
+        },
+        {
+            "id": "3",
+            "timeTableId": "1",
+            "timeSlotId": "1",
+            "dayOfWeek": "2",
+            "date": null,
+            "subjectId": "1"
+        },
+        {
+            "id": "4",
+            "timeTableId": "1",
+            "timeSlotId": "4",
+            "dayOfWeek": "3",
+            "date": null,
+            "subjectId": "3"
+        },
+        {
+            "id": "5",
+            "timeTableId": "1",
+            "timeSlotId": "6",
+            "dayOfWeek": "4",
+            "date": null,
+            "subjectId": "4"
+        },
+        {
+            "id": "6",
+            "timeTableId": "2",
+            "timeSlotId": "8",
+            "dayOfWeek": null,
+            "date": "2024-10-28",
+            "subjectId": "2"
+        },
+        {
+            "id": "7",
+            "timeTableId": "2",
+            "timeSlotId": "6",
+            "dayOfWeek": null,
+            "date": "2024-10-31",
+            "subjectId": "3"
+        },
+        {
+            "id": "8",
+            "timeTableId": "3",
+            "timeSlotId": "5",
+            "dayOfWeek": "5",
+            "date": null,
+            "subjectId": "6"
+        }
+    ],
+    "notices": [
+        {
+          "id": "1",
+          "noticeId": "1",
+          "title": "School status",
+          "content": "School is open",
+          "dueDate": "2024-02-24"
+        },
+        {
+          "id": "2",
+          "noticeId": "2",
+          "title": "School status",
+          "content": "School is on break",
+          "dueDate": "2024-11-02"
+        },
+        {
+          "id": "3",
+          "noticeId": "3",
+          "title": "Exams",
+          "content": "Exams will be fully online",
+          "dueDate": "2024-12-31"
+        },
+        {
+          "id": "4",
+          "noticeId": "4",
+          "title": "School status",
+          "content": "School is closed",
+          "dueDate": "2024-08-11"
+        },
+        {
+          "id": "5",
+          "noticeId": "5",
+          "title": "Goodbye",
+          "content": "Goodbye batch of 23",
+          "dueDate": "2024-04-09"
+        },
+        {
+          "id": "6",
+          "noticeId": "6",
+          "title": "We're back",
+          "content": "Holidays end",
+          "dueDate": "2024-06-29"
+        },
+        {
+          "id": "7",
+          "noticeId": "7",
+          "title": "Goodbye again",
+          "content": "Farewell batch of 23",
+          "dueDate": "2024-09-07"
+        }
+    ],
+    "assigned-section": [
+        {
+            "id": "3",
+            "sectionId": "1",
+            "classId": "5",
+            "sectionName": "A",
+            "className": "V",
+            "teacherName": "Teacher X"
+        },
+        {
+            "id": "4",
+            "sectionId": "1",
+            "classId": "5",
+            "sectionName": "A",
+            "className": "V",
+            "teacherName": "Teacher X"
+        },
+        {
+            "id": "5",
+            "sectionId": "2",
+            "classId": "5",
+            "sectionName": "B",
+            "className": "V",
+            "teacherName": "A-Teacher"
+        }
+    ],
+    "system-stats": [
+        {
+            "id": "0",
+            "studentsCount": "30",
+            "teachersCount": "4",
+            "adminsCount": "3",
+            "classesCount": "2"
+        }
+    ],
+    "tabulated": [
+        {
+            "id": "1",
+            "studentId": "4",
+            "examId": "1",
+            "subjectIdList": [
+                "7",
+                "8",
+                "9"
+            ],
+            "totalScoreList": [
+                "95",
+                "90",
+                "100"
+            ]
+        }
+    ],
+    "dump": []
+}
